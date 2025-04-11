@@ -29,7 +29,7 @@ Manabaの「未読のお知らせ」をワンクリックで**別タブで一括
 1. [Releases](https://github.com/Taku-Taku-Taku/Manaba-Unread-Information-Opener/releases) ページにアクセス
 2. 最新バージョンの `.zip` ファイルをダウンロード
 3. 任意のフォルダに展開（解凍）
-4. Chrome で `chrome://extensions/` を開く
+4. Chrome で `拡張機能を管理`または`chrome://extensions/` を開く
 5. 「デベロッパーモード」を ON にする
 6. 「パッケージ化されていない拡張機能を読み込む」をクリックし、展開したフォルダを指定
 
