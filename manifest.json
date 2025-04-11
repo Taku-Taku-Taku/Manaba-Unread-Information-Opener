@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "Manaba Unread Opener",
+    "version": "1.0",
+    "description": "Manabaの未読お知らせを別タブで自動的に開く拡張機能",
+    "permissions": [
+        "scripting",
+        "activeTab"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://ct.ritsumei.ac.jp/ct/home_announcement_publist*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_idle"
+        }
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_title": "未読お知らせを開く"
+    }
+}
